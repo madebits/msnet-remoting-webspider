@@ -1,0 +1,14 @@
+IIS setup
+
+server
+
+1. Create a directory and place Web.config there
+2. Create a subdir named bin and copy all build\server files there
+3. Create a virtual dir Spider in IIS and point it to dir in 1
+4. Edit Web.config to fit your machine configuration
+
+client
+
+To run the client replace its Spider.exe.config with
+the one here and edit it to fit your machine configuration
+
