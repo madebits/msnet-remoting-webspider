@@ -27,7 +27,7 @@ namespace Spider
 			// Required for Windows Form Designer support
 			//
 			InitializeComponent();
-			string url = "http://madebits.com/";
+			string url = "/";
 			linkEmail.Links.Add(0,url.Length, url);
 			//
 			// TODO: Add any constructor code after InitializeComponent call
@@ -94,7 +94,7 @@ namespace Spider
 			this.linkEmail.Size = new System.Drawing.Size(112, 16);
 			this.linkEmail.TabIndex = 3;
 			this.linkEmail.TabStop = true;
-			this.linkEmail.Text = "http://madebits.com/";
+			this.linkEmail.Text = "/";
 			this.linkEmail.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkEmail_LinkClicked);
 			// 
 			// About

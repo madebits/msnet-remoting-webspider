@@ -1,6 +1,6 @@
 // .Net Remote Spider Demo
 // (c) - Copyright 2003 by Vasian CEPA
-// http://madebits.com
+// 
 
 using System;
 using System.Runtime.Remoting;
